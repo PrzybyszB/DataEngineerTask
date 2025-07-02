@@ -1,0 +1,7 @@
+aws/
+venv/
+docker-compose.yml
+firstspark.py
+firstsparknt.ipynb
+Task_1/Data/yellow_tripdata_2023-01.parquet
+Mini-proj_Spark_AWS/yellow_tripdata_2015-01.csv
