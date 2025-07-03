@@ -3,5 +3,8 @@ venv/
 docker-compose.yml
 firstspark.py
 firstsparknt.ipynb
-Task_1/Data/yellow_tripdata_2023-01.parquet
+Task_1/Data/
+Task_2/Data/
 Mini-proj_Spark_AWS/yellow_tripdata_2015-01.csv
+my_notes.py
+.env
