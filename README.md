@@ -20,7 +20,7 @@ The tasks in this repository involve the following tools and technologies:
 - **Docker** – for containerization and isolated development environments
 - **AWS** (S3, Athena, Glue, Redshift) – for cloud-based storage, querying, and data integration
 - **PostgreSQL** – for relational database operations and SQL practice
-- 
+
 ## Topics Covered
 
 The tasks span across various areas of data engineering, including but not limited to:
