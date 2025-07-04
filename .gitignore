@@ -9,3 +9,4 @@ Mini-proj_Spark_AWS/yellow_tripdata_2015-01.csv
 my_notes.py
 .env
 Mini-proj_Spark_AWS/
+airflow/logs/
