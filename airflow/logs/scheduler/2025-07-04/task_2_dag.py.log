@@ -13710,3 +13710,19 @@ Traceback (most recent call last):
 TypeError: expected str, bytes or os.PathLike object, not NoneType
 [2025-07-04T12:16:56.597+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/task_2_dag.py
 [2025-07-04T12:16:56.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_2_dag.py took 0.486 seconds
+[2025-07-04T12:17:26.750+0000] {processor.py:161} INFO - Started process (PID=5313) to work on /opt/airflow/dags/task_2_dag.py
+[2025-07-04T12:17:26.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_2_dag.py for tasks to queue
+[2025-07-04T12:17:26.762+0000] {logging_mixin.py:188} INFO - [2025-07-04T12:17:26.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/task_2_dag.py
+[2025-07-04T12:17:27.168+0000] {logging_mixin.py:188} INFO - [2025-07-04T12:17:27.167+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/task_2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/task_2_dag.py", line 44, in <module>
+    's3_key': os.path.join(os.getenv("S3_RAW_PREFIX"), "yellow_tripdata_2023-01.parquet")
+  File "/usr/local/lib/python3.8/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+[2025-07-04T12:17:27.169+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/task_2_dag.py
+[2025-07-04T12:17:27.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_2_dag.py took 0.471 seconds
