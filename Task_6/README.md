@@ -1,0 +1,1 @@
+# ogarnac tego vrawlera zeby na podstawie parquetu zapisanego zrobił tabełe i zadac mu poytanie w athene. zrobic readme i koniec etl odhaczyc
